@@ -60,7 +60,7 @@ function LinkDetail(props) {
           Add Comment
         </button>
       </div>
-      {link.comments.forEach(c => console.log(c))}
+
       {link.comments.map((comment, index) => (
         <div key={index}>
           <p className="comment-author">
